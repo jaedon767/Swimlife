@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swim Smart Guide</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0077b6;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #023e8a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .interview {
+      margin-top: 10px;
+      padding-left: 20px;
+      font-style: italic;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Swim Smart: Strength, Technique & Nutrition</h1>
+    <p>A science-based guide to swimming improvement</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#technique">Technique</a>
+    <a href="#strength">Strength</a>
+    <a href="#nutrition">Nutrition</a>
+    <a href="#resources">Resources</a>
+    <a href="#interviews">Interviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <div class="card">
+      <h2>Welcome</h2>
+      <p>This guide is designed to help swimmers of all levels improve their skills using science-backed techniques. Whether you're just starting out or looking to fine-tune your strokes, this website gives you practical advice on training smarter, eating better, and swimming faster.</p>
+    </div>
+  </section>
+
+  <section id="technique">
+    <div class="card">
+      <h2>Technique</h2>
+      <p>Explore stroke mechanics, drills, and videos that break down the key technical elements of freestyle, backstroke, breaststroke, and butterfly. Learn how body position, timing, and rhythm affect performance and efficiency in the water.</p>
+    </div>
+  </section>
+
+  <section id="strength">
+    <div class="card">
+      <h2>Strength</h2>
+      <p>Find home and gym training plans tailored to swimmers. These include bodyweight routines for beginners and resistance training for advanced athletes, with exercises targeting key muscle groups used in each stroke.</p>
+    </div>
+  </section>
+
+  <section id="nutrition">
+    <div class="card">
+      <h2>Nutrition</h2>
+      <p>Understand the role of diet in recovery, energy, and performance. Learn what to eat before and after training, and how proper hydration and rest boost physical development.</p>
+    </div>
+  </section>
+
+  <section id="resources">
+    <div class="card">
+      <h2>Resources</h2>
+      <p>Download weekly planners, training logs, and self-assessment quizzes to track your progress. These tools are designed to help swimmers reflect and improve over time.</p>
+    </div>
+  </section>
+
+  <section id="interviews">
+    <div class="card">
+      <h2>Interviews</h2>
+      <p>Real insights from swimmers and coaches helped shape this project. Here are some key takeaways:</p>
+      <div class="interview">
+        <p><strong>Coach Interview:</strong> "Many swimmers struggle with late breathing and poor posture. Technique comes first, then endurance and strength."</p>
+        <p><strong>Swimmer Interview:</strong> "Butterfly is the hardest stroke for me. It needs rhythm and power to stay efficient."</p>
+        <p><strong>Teacher Interview:</strong> "Good alignment reduces drag. Physics plays a major role in making movements more efficient in water."</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="card">
+      <h2>Contact</h2>
+      <p>For feedback or questions about this guide, reach out via your school contact email or speak to me directly at training.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Swim Smart Guide. Created for the MYP Personal Project.</p>
+  </footer>
+</body>
+</html>
